@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_grey"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/empty_widget_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/widget_simple_empty_text"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+</FrameLayout>
