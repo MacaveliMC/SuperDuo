@@ -30,4 +30,12 @@
 <!-- TODO: Remove or change this placeholder text -->
     <string name="about_text">This application gets book information from a Google API. All titles, cover images, and author information come from there.
     The original version of this app was built by Sascha Jaschke, and a modified version is given to students in the Udacity Android Nanodegree program. </string>
+
+    <!-- Book Null value strings -->
+    <string name="no_book_title">*No Book Title*</string>
+    <string name="no_book_sub_title">*No Book Sub Title*</string>
+    <string name="no_desc">*No Book Description*</string>
+    <string name="no_authors">*No Book Authors Listed*</string>
+    <string name="no_categories">*No Categories Listed*</string>
+
 </resources>
