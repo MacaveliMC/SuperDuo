@@ -124,7 +124,7 @@ public class BookDetail extends Fragment implements LoaderManager.LoaderCallback
         if(authors == null){
             String[] authorsArr = {getString(R.string.no_authors)};
             ((TextView) rootView.findViewById(R.id.authors)).setLines(authorsArr.length);
-            ((TextView) rootView.findViewById(R.id.authors)).setText(authors.replace(",", "\n"));
+            ((TextView) rootView.findViewById(R.id.authors)).setText(authorsArr[0]);
         } else {
             String[] authorsArr = authors.split(",");
             ((TextView) rootView.findViewById(R.id.authors)).setLines(authorsArr.length);
@@ -146,8 +146,9 @@ public class BookDetail extends Fragment implements LoaderManager.LoaderCallback
             ((TextView) rootView.findViewById(R.id.categories)).setText(categories);
         }
 
+        // Removed Custom Back Button
         if(rootView.findViewById(R.id.right_container)!=null){
-            rootView.findViewById(R.id.backButton).setVisibility(View.INVISIBLE);
+            //rootView.findViewById(R.id.backButton).setVisibility(View.INVISIBLE);
         }
 
     }
